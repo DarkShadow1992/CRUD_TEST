@@ -1,0 +1,28 @@
+name: crud
+description: CRUD
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.4
+  get: ^4.6.5
+  flutter_screenutil: ^5.5.4
+  flutter_svg: ^0.19.3
+  http: ^0.13.5
+  awesome_dialog: any
+  dio: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
